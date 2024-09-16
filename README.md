@@ -18,6 +18,7 @@ Employment Length – Customers with longer employment tenure tend to be more fi
 Debt-to-Income (DTI) – A lower DTI ratio indicates better loan repayment capability.
 Excluded Variables:
 Columns with high levels of missing data or irrelevant information have been excluded from the analysis. This includes columns such as customer behavior details and specific internal company data.
+
 Data Preprocessing
 Handled mixed data types and converted variables to their appropriate formats.
 Removed columns and rows with missing or irrelevant data, including loans with a status of "Current."
@@ -42,6 +43,10 @@ Python (Pandas, NumPy, Matplotlib, Seaborn)
 Jupyter Notebook
 How to Run
 Clone the repository.
-Install the required libraries using pip install -r requirements.txt.
+
+Install the required libraries using:
+
+pip install -r requirements.txt
 Run the Jupyter Notebook for data analysis and visualization.
-Review the results in the output cells of the notebook.
+
+Review the results in the output cells of the notebook
